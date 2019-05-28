@@ -1,9 +1,10 @@
 
 package Quest3;
 
-public class AlunoGrad {
+public class AlunoGrad extends Aluno{
     private MateriasGrad soliciMatGrad;
-    AlunoGrad(MateriasGrad smg){
+    AlunoGrad(String n,MateriasGrad smg){
+        super(n);
         setSMG(smg);
     }
     void setSMG(MateriasGrad smg){ this.soliciMatGrad=smg;}

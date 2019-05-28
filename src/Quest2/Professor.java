@@ -5,14 +5,14 @@ public class Professor {
     private String nome,matricula;
     private int idade;
     
-    void setNome(String n){ this.nome=n;}
-    String getNome(){ return this.nome;}
+    public void setNome(String n){ this.nome=n;}
+    public String getNome(){ return this.nome;}
     
-    void setMatricula(String m){ this.matricula=m;}
-    String getMatricula(){ return this.matricula;}
+    public void setMatricula(String m){ this.matricula=m;}
+    public String getMatricula(){ return this.matricula;}
     
-    void setIdade(int i){ this.idade=i;}
-    int getIdade(){ return this.idade;}
+    public void setIdade(int i){ this.idade=i;}
+    public int getIdade(){ return this.idade;}
     
     
     

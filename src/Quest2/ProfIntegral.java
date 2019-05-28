@@ -5,8 +5,8 @@ public class ProfIntegral extends Professor{
     private double sal;
     
     
-    void setSal(double s){ this.sal=s;}
-    double getSal(){ return this.sal;}
+    public void setSal(double s){ this.sal=s;}
+    public double getSal(){ return this.sal;}
     
     
 }

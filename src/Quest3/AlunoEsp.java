@@ -3,8 +3,8 @@ package Quest3;
 
 public class AlunoEsp extends AlunoGrad{
     private MateriasPosGrad soliciMatPosGrad;
-    public AlunoEsp(MateriasGrad smg,MateriasPosGrad smpg){
-        super(smg);
+    public AlunoEsp(String n,MateriasGrad smg,MateriasPosGrad smpg){
+        super(n,smg);
         setSMPG(smpg);
     }
     

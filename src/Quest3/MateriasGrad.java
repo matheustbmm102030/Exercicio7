@@ -1,10 +1,11 @@
 
 package Quest3;
 
-public class MateriasGrad {
+public class MateriasGrad extends Materias{
     private String xxx;
     
-    MateriasGrad(String x){
+    MateriasGrad(String y,String x){
+        super(y);
         setXxx(x);
     }
     
